@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stockingsql">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockingSql"
+        tools:targetApi="31">
+
+        <!-- Actividad principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.StockingSql.NoActionBar"
+            tools:ignore="RedundantLabel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Otras actividades -->
+        <activity
+            android:name=".ManageCategoriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManageInventoryMovementsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManageProductsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManageSuppliersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManageWarehousesActivity"
+            android:exported="true" />
+
+        <!-- Nueva actividad -->
+        <activity
+            android:name=".NewSupplierActivity"
+            android:exported="true" />
+
+        <!-- Actividad para mostrar detalles del proveedor -->
+        <activity
+            android:name=".SupplierDetailsActivity"
+            android:exported="true" />
+
+        <!-- Actividad para editar detalles del proveedor -->
+        <activity
+            android:name=".EditSupplierActivity"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+
+    </application>
+</manifest>

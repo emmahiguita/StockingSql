@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/galax"
+    tools:ignore="ExtraText">
+    tools:context=".MainActivity">
+
+    <!-- Botones -->
+    <Button
+        android:id="@+id/buttonManageWarehouses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openManageWarehouses"
+        android:text="@string/gestionar_almacenes"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonManageSuppliers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openManageSuppliers"
+        android:text="@string/gestionar_proveedores"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonManageProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openManageProducts"
+        android:text="@string/gestionar_productos"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonManageInventoryMovements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openManageInventoryMovements"
+        android:text="@string/gestionar_movimientos"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonManageCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="openManageCategories"
+        android:text="@string/gestionar_categor_as"
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exitApp"
+        android:text="Salir"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,OnClick,VisualLintButtonSize" />
+
+</LinearLayout>

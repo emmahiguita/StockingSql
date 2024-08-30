@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="VisualLintBounds">
+
+    <EditText
+        android:id="@+id/editTextWarehouseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Nombre del Almacén"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextWarehouseLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicación del Almacén"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/buttonAddWarehouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Almacén"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonEditWarehouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Almacén"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonDeleteWarehouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Almacén"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/listViewWarehouses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

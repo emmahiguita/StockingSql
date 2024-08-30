@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonUpdateSupplier" type="id" />
+    <item name="listViewSuppliers" type="id" />
+    <item name="textViewSupplierName" type="id" />
+    <item name="textViewSupplierLocation" type="id" />
+    <item name="editTextSupplierLocation" type="id" />
+    <item name="textViewSupplierEmail" type="id" />
+    <item name="textViewSupplierPhone" type="id" />
+    <item name="textViewSupplierContact" type="id" />
+    <item name="btnNuevoProveedor" type="id" />
+    <item name="txtSupplierEmail" type="id" />
+    <item name="txtSupplierName" type="id" />
+    <item name="txtSupplierPhone" type="id" />
+    <item name="txtSupplierContact" type="id" />
+    <item name="recyclerViewSuppliers" type="id" />
+    <item name="tvSupplierName" type="id" />
+    <item name="tvSupplierContact" type="id" />
+    <item name="tvSupplierPhone" type="id" />
+    <item name="tvSupplierEmail" type="id" />
+    <item name="supplierNameTextView" type="id" />
+    <item name="emailTextView" type="id" />
+    <item name="phoneTextView" type="id" />
+    <item name="contactTextView" type="id" />
+    <item name="buttonSave" type="id" />
+    <item name="editTextEmail" type="id" />
+    <item name="editTextContact" type="id" />
+    <item name="editTextPhone" type="id" />
+    <item name="editTextName" type="id" />
+    <item name="textViewName" type="id" />
+    <item name="textViewContact" type="id" />
+    <item name="txtProductId" type="id" />
+    <item name="txtDescription" type="id" />
+    <item name="txtPrice" type="id" />
+    <item name="txtMp" type="id" />
+    <item name="txtCategoryId" type="id" />
+    <item name="txtStock" type="id" />
+    <item name="txtSupplierId" type="id" />
+    <item name="editTextMP" type="id" />
+    <item name="btnNuevoProducto" type="id" />
+    <item name="recyclerViewProducts" type="id" />
+</resources>

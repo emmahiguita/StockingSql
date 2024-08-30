@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:ignore="ExtraText">
+
+    <!-- TextView para mostrar el nombre del almacén -->
+loiw    <TextView
+        android:id="@+id/textViewWarehouseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Almacén"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <!-- TextView para mostrar la ubicación del almacén -->
+    <TextView
+        android:id="@+id/textViewWarehouseLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación del Almacén"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
